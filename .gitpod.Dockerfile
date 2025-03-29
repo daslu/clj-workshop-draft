@@ -13,10 +13,10 @@ USER gitpod
 WORKDIR /home/gitpod
 
 # 1. Install the Clojure CLI
-RUN curl -O https://download.clojure.org/install/linux-install-1.11.1.1200.sh \
-    && chmod +x linux-install-1.11.1.1200.sh \
-    && ./linux-install-1.11.1.1200.sh \
-    && rm linux-install-1.11.1.1200.sh
+RUN curl -O https://github.com/clojure/brew-install/releases/latest/download/linux-install.sh \
+&& chmod +x linux-install.sh \
+    && ./linux-install.sh \
+    && rm linux-install.sh
 
 # 2. Create a "workshop" directory (this is optional — Gitpod auto-clones your repo).
 RUN mkdir -p /home/gitpod/workshop
