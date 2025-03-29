@@ -1,6 +1,14 @@
 # Start from one of Gitpod's base images that already includes common tools.
 FROM gitpod/workspace-full
 
+# Switch to root (because installing packages requires root privileges)
+USER root
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends fonts-firacode \
+    && rm -rf /var/lib/apt/lists/*
+
+# Switch back to gitpod user
 USER gitpod
 WORKDIR /home/gitpod
 

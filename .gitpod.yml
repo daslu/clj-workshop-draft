@@ -17,20 +17,3 @@ vscode:
   extensions:
     # Calva is "betterthantomorrow.calva" on OpenVSX
     - betterthantomorrow.calva
-  settings:
-    # These replicate what you'd normally put in .vscode/settings.json
-    workbench.startupEditor: none
-    workbench.activityBar.visible: false
-    workbench.statusBar.visible: false
-    workbench.tips.enabled: false
-    workbench.enableExperiments: false
-    workbench.editor.enablePreview: false
-    editor.minimap.enabled: false
-    editor.hover.enabled: false
-    editor.suggestOnTriggerCharacters: false
-    editor.inlineSuggest.enabled: false
-    telemetry.enableTelemetry: false
-    telemetry.enableCrashReporter: false
-    extensions.ignoreRecommendations: true
-    security.workspace.trust.enabled: false
-    editor.fontSize: 16

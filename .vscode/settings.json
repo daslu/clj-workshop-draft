@@ -13,4 +13,6 @@
     "telemetry.enableCrashReporter": false,
     "extensions.ignoreRecommendations": true,
     "security.workspace.trust.enabled": false
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true
 }
